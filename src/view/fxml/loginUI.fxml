@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="view.controller.LoginUIController"
-            prefHeight="560.0" prefWidth="320.0">
+
+<AnchorPane fx:id="rootMainMenu" prefHeight="560.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.LoginUIController">
+   <children>
+      <JFXHamburger layoutX="14.0" layoutY="14.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="66.0" layoutY="374.0" onAction="#signInClickedAction" prefHeight="33.0" prefWidth="188.0" style="-fx-background-color: #3498db;" text="Sign In " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="68.0" layoutY="414.0" prefHeight="33.0" prefWidth="188.0" style="-fx-background-color: #27ae60;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
 </AnchorPane>

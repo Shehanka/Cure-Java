@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootSignIn" prefHeight="560.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.SignInUIController">
+   <children>
+      <JFXTextField fx:id="txtUserName" focusColor="#40a861" labelFloat="true" layoutX="64.0" layoutY="302.0" promptText="User Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="txtPassword" focusColor="#40a861" labelFloat="true" layoutX="64.0" layoutY="366.0" onAction="#verifyLogin" promptText="Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </JFXPasswordField>
+   </children>
+</AnchorPane>
