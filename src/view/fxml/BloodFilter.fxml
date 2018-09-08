@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="560.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.BloodFilterCotroller">
+   <children>
+      <JFXComboBox fx:id="cbxBloodType" focusColor="#40a854" layoutX="93.0" layoutY="219.0" onAction="#setCbxBloodType" promptText="Blood Type" unFocusColor="#4d4d4d" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgDonators" fitHeight="170.0" fitWidth="314.0" layoutX="15.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/3%20donors%20ui.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
