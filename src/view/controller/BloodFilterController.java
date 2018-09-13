@@ -12,7 +12,7 @@ import java.util.ResourceBundle;
  * @author chamodshehanka on 9/8/2018
  * @project Cure-Java
  **/
-public class BloodFilterCotroller implements Initializable {
+public class BloodFilterController implements Initializable {
 
     @FXML
     private JFXComboBox<String> cbxBloodType;

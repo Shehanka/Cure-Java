@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
-<AnchorPane prefHeight="560.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.BloodFilterCotroller">
+<AnchorPane prefHeight="560.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.controller.BloodFilterController">
    <children>
       <JFXComboBox fx:id="cbxBloodType" focusColor="#40a854" layoutX="93.0" layoutY="219.0" onAction="#setCbxBloodType" promptText="Blood Type" unFocusColor="#4d4d4d" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="86.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
